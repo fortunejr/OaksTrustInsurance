@@ -1,24 +1,26 @@
 import React from 'react'
-import { img10, img7 } from '../../imports'
+import { img13,  } from '../../imports'
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from 'react-router';
+import FadeIn from '../fadein';
 
 const About = () => {
   return (
-    <div className='container mx-auto px-7 lg:px-20 py-14 lg:py-20'>
+    <FadeIn duration = {100} >
+    <div className='container mx-auto px-7 lg:px-20 py-14 lg:py-20 bg-orange-50'>
+        <h2 className='font-bold text-center mb-7 text-3xl mt-7 lg:text-6xl'>Who are we?</h2>
     <div className='lg:flex'>
         <div className='lg:w-1/2'>
             <img 
-                className='w-full object-cover pr-2 lg:h-full slide-in-blurred-bottom rounded-3xl' 
-                src={img10} 
+                className='w-full object-cover  lg:h-full slide-in-blurred-bottom rounded-3xl border-x-8 border-orange-200' 
+                src={img13} 
                 alt="solar panel" 
             />
         </div>
 
         <div className='lg:w-1/2 lg:pl-10'>
-            <h2 className='font-bold text-3xl mt-7 lg:text-6xl'>Who are we?</h2>
             <p className='lg:text-xl mt-4'>
-                Oaks & Trust Insurance was founded with a clear purpose: to offer dependable, high-quality insurance that Australians can trust. With years of combined experience in the finance and insurance sectors, our leadership and advisors understand the importance of protecting what matters most—from homes and families to businesses and investments.
+                Oak & Trust Insurance was founded with a clear purpose: to offer dependable, high-quality insurance that Australians can trust. With years of combined experience in the finance and insurance sectors, our leadership and advisors understand the importance of protecting what matters most—from homes and families to businesses and investments.
             </p>
         </div>
     </div>
@@ -32,6 +34,7 @@ const About = () => {
            </Link>
     </div>
 </div>
+</FadeIn>
   )
 }
 

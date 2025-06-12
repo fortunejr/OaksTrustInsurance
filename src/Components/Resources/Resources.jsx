@@ -1,4 +1,5 @@
 import React from 'react'
+import FadeIn from '../fadein'
 
 const availableResources = [
   'Premium & Coverage Calculators',
@@ -16,7 +17,8 @@ const downloadableEbooks = [
 
 const Resources = () => {
   return (
-    <div className='bg-white px-7 py-14 text-black'>
+    <div className=' px-7 py-14 text-black bg-orange-50'>
+      <FadeIn duration = {100} >
       <div className='container mx-auto max-w-6xl'>
         <h2 className='text-3xl font-bold mb-3 text-black'>Resources</h2>
         <p className='mb-10 text-black'>Insurance Tools & Educational Resources</p>
@@ -55,6 +57,7 @@ const Resources = () => {
           </div>
         </div>
       </div>
+    </FadeIn>
     </div>
   )
 }

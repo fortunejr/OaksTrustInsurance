@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { logo } from '../../imports';
+import FadeIn from '../fadein';
 
 const Navbar = () => {
     const menuItems = [
@@ -20,11 +21,15 @@ const Navbar = () => {
       },
       {
         name: "Blog",
-        link: "/blog"
+        link: "https://www.blog.oakandtrustinsurance.com/"
       },
       {
         name: "Claims",
         link: "/claims"
+      },
+      {
+        name: "Faqs",
+        link: "/faq"
       },
       {
         name: "Contact",

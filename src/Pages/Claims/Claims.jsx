@@ -54,7 +54,7 @@ const Claims = () => {
           </div>
           <div className="flex items-center gap-3">
             <HiOutlineDocumentSearch size={24} />
-            <a href="#" className="underline hover:text-yellow-300 font-medium">
+            <a href="#" mailto = "" className="underline hover:text-yellow-300 font-medium">
               Submit Online
             </a>
           </div>

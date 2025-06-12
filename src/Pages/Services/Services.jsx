@@ -86,7 +86,7 @@ const Services = () => {
         <h2 className='text-3xl font-bold'>Services</h2>
         <h4 className='text-lg'>Tailored Services to Match Your Life and Business Needs</h4>
         <p className='w-4/5 mt-2'>
-          Oaks & Trust Insurance is more than just a policy provider. We are your strategic partner in managing risk. Our services go beyond standard cover to offer expert guidance, structured planning, and end-to-end claims support.
+          Oak & Trust Insurance is more than just a policy provider. We are your strategic partner in managing risk. Our services go beyond standard cover to offer expert guidance, structured planning, and end-to-end claims support.
         </p>
         <h3 className='mt-4 text-xl'>Our Key Services Include:</h3>
 

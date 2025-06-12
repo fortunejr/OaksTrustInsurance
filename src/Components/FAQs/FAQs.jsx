@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown, ChevronUp } from 'lucide-react'
+import FadeIn from '../fadein'
 
 const faqData = [
   {
@@ -34,6 +35,7 @@ const FAQs = () => {
 
   return (
     <div className='bg-customOrange px-7 py-14'>
+      <FadeIn duration = {100} >
       <div className='container mx-auto max-w-4xl'>
         <h2 className='text-3xl font-bold text-white mb-3'>FAQ</h2>
         <p className='text-white mb-10'>Answers to Your Most Common Questions</p>
@@ -73,6 +75,7 @@ const FAQs = () => {
           ))}
         </div>
       </div>
+      </FadeIn>
     </div>
   )
 }

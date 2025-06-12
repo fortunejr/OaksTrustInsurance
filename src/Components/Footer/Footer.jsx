@@ -26,16 +26,16 @@ const Footer = () => {
       {/* Contact Info */}
       <div className='lg:w-1/3'>
         <h2 className='font-bold text-white pb-3 pt-7 lg:pt-0'>Contact Information</h2>
-        <p className='text-white text-sm'>📍 Oaks & Trust Insurance Headquarters
+        <p className='text-white text-sm'>📍 Oak & Trust Insurance Headquarters
         Level 10, 345 Collins Street
         Melbourne, VIC 3000
         </p>
-        <p className='text-white text-sm mt-2'>📧 support@oaksandtrust.com.au </p>
+        <p className='text-white text-sm mt-2'>📧 info@oakandtrustinsurance.com </p>
         <p className='text-white text-sm mt-2'>📞 1300 000 123</p>
       </div>
 
       {/* Social Icons */}
-      <div className='lg:w-1/3 pt-7 lg:pt-0'>
+      {/* <div className='lg:w-1/3 pt-7 lg:pt-0'>
         <h2 className='font-bold text-white pb-3'>Follow Us</h2>
         <div className="flex items-center gap-4 text-white">
           <a
@@ -62,12 +62,12 @@ const Footer = () => {
             <FaLinkedinIn size={20}/>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
 
     {/* Copyright */}
     <p className="text-center text-sm mt-10 text-white">
-      &copy; {year} Oaks & Trust Insurance
+      &copy; {year} Oak & Trust Insurance
     </p>
   </div>
 </footer>

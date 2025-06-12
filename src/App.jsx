@@ -9,6 +9,7 @@ import Contact from './Pages/Contact/Contact'
 import Products from './Pages/Products/Products'
 import Blog from './Pages/Blog/Blog'
 import Claims from './Pages/Claims/Claims'
+import Faq from './Pages/Faq/Faq'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path = "/blog"  element = {<Blog />}/>
         <Route path = "/claims"  element = {<Claims />}/>
         <Route path = "/contact"  element = {<Contact />}/>
+        <Route path = "/faq"  element = {<Faq />}/>
         <Route path = "*"  element={<p>Nothing to show</p>} />
       </Routes>
       <Footer />

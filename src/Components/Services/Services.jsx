@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { img1, img3, img4, img5, img6 } from '../../imports'
+import FadeIn from '../fadein'
 
 const serviceListIndividual = [
   {
@@ -82,18 +83,19 @@ const Services = () => {
 
   return (
     <div className='px-12 py-10 bg-customOrange'>
+      <FadeIn duration = {100} >
       <div className='container mx-auto max-w-4xl text-white'>
         <h2 className='text-3xl font-bold'>Services</h2>
         <h4 className='text-lg'>Tailored Services to Match Your Life and Business Needs</h4>
         <p className='w-4/5 mt-2'>
-          Oaks & Trust Insurance is more than just a policy provider. We are your strategic partner in managing risk. Our services go beyond standard cover to offer expert guidance, structured planning, and end-to-end claims support.
+          Oak & Trust Insurance is more than just a policy provider. We are your strategic partner in managing risk. Our services go beyond standard cover to offer expert guidance, structured planning, and end-to-end claims support.
         </p>
         <h3 className='mt-4 text-xl'>Our Key Services Include:</h3>
 
         {/* Section: For Individuals */}
         <div className='mt-8 cursor-pointer' onClick={() => sectionToggle('individual')}>
           <div className='flex justify-between items-center bg-black p-4 rounded-xl'>
-            <h2 className='text-2xl font-semibold'>For Individuals:</h2>
+            <p className='text-2xl font-semibold'>For Individuals:</p>
             {showIndividual ? <ChevronUp /> : <ChevronDown />}
           </div>
           <AnimatePresence>
@@ -113,7 +115,7 @@ const Services = () => {
         {/* Section: For Businesses */}
         <div className='mt-8 cursor-pointer' onClick={() => sectionToggle('business')}>
           <div className='flex justify-between items-center bg-black p-4 rounded-xl'>
-            <h2 className='text-2xl font-semibold'>For Businesses:</h2>
+            <p className='text-2xl font-semibold'>For Businesses:</p>
             {showBusiness ? <ChevronUp /> : <ChevronDown />}
           </div>
           <AnimatePresence>
@@ -133,7 +135,7 @@ const Services = () => {
         {/* Section: Added Support Services */}
         <div className='mt-8 cursor-pointer' onClick={() => sectionToggle('added')}>
           <div className='flex justify-between items-center bg-black p-4 rounded-xl'>
-            <h2 className='text-2xl font-semibold'>Added Support Services:</h2>
+            <p className='text-2xl font-semibold'>Added Support Services:</p>
             {showAdded ? <ChevronUp /> : <ChevronDown />}
           </div>
           <AnimatePresence>
@@ -150,6 +152,7 @@ const Services = () => {
           </AnimatePresence>
         </div>
       </div>
+    </FadeIn>
     </div>
   )
 }

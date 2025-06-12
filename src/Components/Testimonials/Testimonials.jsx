@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const testimonials = [
   {
     quote:
-      '“We had trouble understanding the right type of business coverage until Oaks & Trust stepped in. They were transparent and proactive throughout.”',
+      '“We had trouble understanding the right type of business coverage until Oak & Trust stepped in. They were transparent and proactive throughout.”',
     author: '— Linda K., Sydney'
   },
   {
@@ -42,7 +42,7 @@ const Testimonials = () => {
   }
 
   return (
-    <div className='bg-white px-7 py-14'>
+    <div className='bg-white px-7 py-14 bg-orange-50'>
       <div className='container mx-auto max-w-3xl text-center'>
         <h2 className='text-3xl font-bold text-black mb-10'>Our Clients Say It Best</h2>
 

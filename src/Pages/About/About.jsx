@@ -1,5 +1,5 @@
 import React from 'react'
-import { img10 } from '../../imports'
+import { img13 } from '../../imports'
 import { FaShieldAlt, FaLightbulb } from 'react-icons/fa'
 import { MdOutlineHandshake } from 'react-icons/md'
 import { AiOutlineEyeInvisible } from 'react-icons/ai'
@@ -14,8 +14,8 @@ const About = () => {
           <div className="w-full lg:w-1/2">
             <img
               className="rounded-3xl w-full h-auto object-cover"
-              src={img10}
-              alt="Oaks and Trust Insurance"
+              src={img13}
+              alt="Oak and Trust Insurance"
             />
           </div>
 
@@ -23,7 +23,7 @@ const About = () => {
           <div className="w-full lg:w-1/2 text-white">
             <h2 className="text-5xl font-bold mb-5">Our Story</h2>
             <p className="text-sm lg:text-base leading-relaxed mb-6">
-              Oaks & Trust Insurance was founded with a clear purpose: to offer dependable, high-quality insurance that Australians can trust. With years of combined experience in the finance and insurance sectors, our leadership and advisors understand the importance of protecting what matters most—from homes and families to businesses and investments.
+              Oak & Trust Insurance was founded with a clear purpose: to offer dependable, high-quality insurance that Australians can trust. With years of combined experience in the finance and insurance sectors, our leadership and advisors understand the importance of protecting what matters most—from homes and families to businesses and investments.
             </p>
 
             <h2 className="text-3xl font-semibold mb-3">Our Mission</h2>
