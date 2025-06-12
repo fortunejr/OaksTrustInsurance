@@ -37,7 +37,7 @@ const Navbar = () => {
       },
     ]
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false) 
 
   const toggle = () => {
     setOpen(!open)
