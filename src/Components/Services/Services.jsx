@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { img1, img3, img4, img5, img6 } from '../../imports'
+import { img1, img3, img4, img5, img6, img7, img8, img9, img10 } from '../../imports'
 import FadeIn from '../fadein'
 
 const serviceListIndividual = [
@@ -36,7 +36,7 @@ const serviceListBusinesses = [
   {
     name: 'Custom SME & Corporate Packages',
     desc: 'Insurance solutions for startups, SMEs, and enterprises.',
-    img: img1
+    img: img7
   }
 ]
 
@@ -44,17 +44,17 @@ const serviceListAdded = [
   {
     name: 'Claims Assistance Hotline',
     desc: 'Quick access to support when you need to file a claim.',
-    img: img3
+    img: img8
   },
   {
     name: '24/7 Customer Support',
     desc: 'Round-the-clock assistance to help with any insurance queries.',
-    img: img4
+    img: img9
   },
   {
     name: 'Renewal Alerts & Proactive Consultation',
     desc: 'Timely reminders and strategy reviews to keep your policies up to date.',
-    img: img5
+    img: img10
   }
 ]
 

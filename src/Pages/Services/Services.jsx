@@ -35,7 +35,7 @@ const serviceListBusinesses = [
   {
     name: 'Custom SME & Corporate Packages',
     desc: 'Insurance solutions for startups, SMEs, and enterprises.',
-    img: img1
+    img: img7
   }
 ]
 
@@ -43,17 +43,17 @@ const serviceListAdded = [
   {
     name: 'Claims Assistance Hotline',
     desc: 'Quick access to support when you need to file a claim.',
-    img: img3
+    img: img8
   },
   {
     name: '24/7 Customer Support',
     desc: 'Round-the-clock assistance to help with any insurance queries.',
-    img: img4
+    img: img9
   },
   {
     name: 'Renewal Alerts & Proactive Consultation',
     desc: 'Timely reminders and strategy reviews to keep your policies up to date.',
-    img: img5
+    img: img10
   }
 ]
 
