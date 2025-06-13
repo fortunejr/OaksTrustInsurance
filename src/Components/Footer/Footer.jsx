@@ -14,7 +14,7 @@ const Footer = () => {
       {/* Logo and Description */}
       <div className='lg:w-1/3'>
       <Link to = {'/'}>
-        <img className='h-14 mb-4' src={logo2} alt="LumiGrid logo" />
+        <img className='h-24 mb-4' src={logo2} alt="LumiGrid logo" />
       </Link>
         <p className='text-white text-sm leading-relaxed'>
           Let’s Discuss Your Insurance Needs
