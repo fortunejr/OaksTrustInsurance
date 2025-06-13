@@ -1,4 +1,5 @@
 import logo from "./assets/logo.png"
+import logo2 from "./assets/logo-white.png"
 import img1 from "./assets/img1.png"
 import img3 from "./assets/img3.jpg"
 import img4 from "./assets/img4.png"
@@ -22,5 +23,5 @@ import engineer from "./assets/engineer.png"
 
 
 export {
-    logo, img1, img3, img4, img5, img6, img7, img8,img9,img10,img11,img12,img13, efficiency,decentralized, warranty, diagnose, ai, battery, climate, engineer
+    logo, logo2, img1, img3, img4, img5, img6, img7, img8,img9,img10,img11,img12,img13, efficiency,decentralized, warranty, diagnose, ai, battery, climate, engineer
 }
